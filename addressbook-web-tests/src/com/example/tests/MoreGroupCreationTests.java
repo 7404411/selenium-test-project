@@ -11,9 +11,9 @@ public class MoreGroupCreationTests extends TestBase {
     gotoGroupsPage();
     initGroupCreation();
     GroupData group = new GroupData();
-    group.name = "Group Name 1";
-    group.header = "Header 1";
-    group.footer = "Footer 1";
+    group.name = "Group Name 5";
+    group.header = "Header 5";
+    group.footer = "Footer 5";
 	fillGroupForm(group);
     submitGroupCreation();
     returnToGroupsPage();
